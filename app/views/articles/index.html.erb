@@ -2,8 +2,8 @@
 
 <div class="wrapper">
   <main class="content">
-  
-  <!-- profile -->
+
+    <!-- profile -->
 
     <section class="profile-section section" id="profile-section">
       <div class="inner">
@@ -47,7 +47,59 @@
       </div>
     </section>
 
+    <!-- works -->
+
+    <section class="works-section " id="works-section">
+      <div class="inner">
+        <div class="section-heading">
+          <h2 class="heading-primary">- Works -</h2>
+        </div>
+        <div class="section-body works">
+          <div class="works-list js-my-gallery">
+            <figure class="works-item">
+
+              <%= link_to image_tag("furima.jpg"), "https://furima29728.herokuapp.com/" , class:"works-image-wrapper works-link hover-action"  %>
+
+              <figcaption class="works-body">
+                <div class="works-title">TECH::CAMP最終課題「furima_app」</div>
+                <div class="works-text">HTML/ CSS/ Ruby/ rails/ javascript</div>
+                <div class="works-text">Basic認証 ID: mita Pass: 2018</div>
+
+                  <%= link_to '紹介資料リンク', "https://docs.google.com/document/d/1LuzSx06bmvH89oOhEGk0fqAylLhKxbZfgUKVGzbbyFs/edit", class: 'document_link' %>
+
+              </figcaption>
+            </figure>
+
+            <figure class="works-item">
+
+              <%= link_to image_tag("eMatch.png"), "https://e-match.tk/" , class:"works-image-wrapper works-link hover-action"  %>
+
+              <figcaption class="works-body">
+                <div class="works-title">エンジニアマッチングサイト「eMatch-Pro」</div>
+                <div class="works-text">HTML/ CSS/ Ruby/ rails/ javascript </div>
+                <div class="works-text">Basic認証 ID: mita Pass: 2018</div>
+                
+                <%= link_to '紹介資料リンク', "https://docs.google.com/document/d/1hiNEf1yWffkzWojoXo_t9XxQpM5jcdPzBMJqP87QiQg/edit", class: 'document_link' %>
+
+              </figcaption>
+            </figure>
+          </div>
+
+            <div class="git_link">
+              <%= link_to 'https://github.com/kiiii8r', class: 'github' do %>
+                <span class="git_title">- My GitHub</span>
+                <i class="fab fa-github"></i>
+                <span class="git_title">-</span>
+              <% end %>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
- </div>
+</div>
+
 <%= render 'footer' %>
