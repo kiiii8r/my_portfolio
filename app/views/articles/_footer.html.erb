@@ -16,6 +16,21 @@
         <% end %>
       </div>
 
+      <input id="copyTarget" type="text" value="s84.nakamura.kazuki@gmail.com" readonly>
+      <button onclick="copyToClipboard()">
+        <i class="fas fa-envelope"></i>
+      </button>
+
+      <script>
+        function copyToClipboard() {
+            var copyTarget = document.getElementById("copyTarget");
+            copyTarget.select();
+            document.execCommand("Copy");
+            alert("クリップボードに保存しました : " + copyTarget.value);
+        }
+      </script>
+
+
       </div>
   </div>
 </section>
