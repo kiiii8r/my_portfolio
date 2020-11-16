@@ -94,3 +94,7 @@
   text-align: right;
   letter-spacing: .2em;
 }
+
+@media screen and (max-width: 812px) {
+
+}
