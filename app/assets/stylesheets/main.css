@@ -123,3 +123,26 @@
 .github:hover {
   color: rgba(83, 117, 226, 0.705);
 }
+
+@media screen and (max-width: 812px) {
+
+  /* Works */
+  .works-body {
+   text-align: left;
+ }
+
+ .works-title {
+   font-size: 10px;
+ }
+
+ .works-list {
+   display: block;
+   justify-content: space-between;
+ }
+
+ .works-item {
+   flex: 0 0 48%;
+   margin-right: 0;
+   margin-bottom: 30px;
+ }
+}
