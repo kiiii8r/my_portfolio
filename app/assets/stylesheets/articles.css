@@ -69,3 +69,52 @@ img {
   margin: 0 auto;
   padding: 80px 80px;
 }
+
+@media screen and (max-width: 812px) {
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .pc-only {
+    display: none;
+  }
+
+  .sp-only {
+    display: block;
+  }
+
+  .hover-action {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .hover-action:hover {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  /* 文字関連 */
+  .section-heading {
+    margin-bottom: 20px;
+  }
+
+  .heading-primary {
+    font-size: 22px;
+  }
+
+  /* レイアウト関連 */
+  .wrapper {
+    padding-top: 82px;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .section .inner {
+    padding: 0 15px;
+  }
+}
