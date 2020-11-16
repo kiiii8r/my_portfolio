@@ -1,3 +1,105 @@
 <%= render 'header'%>
 
+<div class="wrapper">
+  <main class="content">
+
+    <!-- profile -->
+
+    <section class="profile-section section" id="profile-section">
+      <div class="inner">
+        <div class="section-heading">
+          <h2 class="heading-primary">- Profile -</h2>
+        </div>
+        <div class="section-body profile">
+          <div class="profile-item">
+            <div class="profile-image-wrapper">
+
+            <%= image_tag 'my_photo.jpg', class: "profile-image lazyload fadein" %>
+
+            <ul class="profile-list">
+              <li class="profile-detail">中村 一輝 (26)</li>
+              <li class="profile-detail">出身：山口県</li>
+              <li class="profile-detail">生年月日：1994/9/13</li>
+              <li class="profile-detail">- 趣味 -</li>
+              <li class="detail-content">音楽鑑賞(J-pop,Kpop,バンドなど幅広)/ 歌を歌う/ ギター(カラオケ代削減の為にはじめた)/ 飲みに行き知り合った人と話すこと/ カフェで勉強/ Youtube等による情報収集/ 人間観察/...etc</li>
+              <li class="profile-detail">- 目標 -</li>
+              <li class="detail-content">編集者側にも、使用者側にも理解しやすい優しいコードの書けるエンジニアを目指しています。</li>
+            </ul>
+
+            </div>
+            <div class="profile-body">
+              <p> <div class="darkblue">◆My history</div>
+                2013年3月、山口県立トクヤマ商工高等学校を卒業、株式会社トクヤマ入社、2019年12月から株式会社トクヤマデンタルに出向した後、結婚を機に将来を見据えエンジニアを目指す決意を固めました。
+                基礎を固める為、2020年7月より、TECH::CAMPで主にruby、ruby on rails及JavaScriptを中心にプログラミング学習を進め、2020年10月に卒業、現在就活中。
+                将来、エンジニア側にも、使用者側にもわかりやすく優しいコードの書けるエンジニアになるべく日々自信のプログランミング技術向上に努めています。
+              <p><div class="darkblue">◆Interest in programming</div>
+                元職場でのシステム化導入の流れがあった際、実務導入を任されました。渡されたシステムは、設定を困難とする挙動の悪さで、使用感もストレスを感じるものでした。
+                少しづつ形にはなっていったのですが、もともとの設計に依存する為限界を感じることが多く、システム開発、編集を自分で行うことができたらと思うようになりました。
+                そんな中、ベンチャー企業に務める友人に業務内容を見せてもらう機会があり、使用しているシステムの差に愕然としました。自分でも調べていく中で他企業とのIT格差に圧倒される日々でした。
+                出向が決まり次の職場の上司と業務の自動化を目指し活動していく中で、使用者の目線で考え設計し、その業務に付加価値を与えることのできるシステム設計をしたいんだ。と上司より日々その構想に基づく議論を交わしていただきました。ちょうどその頃ドメイン駆動設定の問題に関する記事を読み、自分ならこの問題に対応することのできるエンジニアになれないかと思うようになりました。
+                茨城県で知り合った社長さん方との交流も、今一つエンジニアの道へ踏み出す勇気がなかった自分の後押しとなりました。結婚し家族を守る責任を持った今、今後の日本の将来を見据えエンジニアでありたい理由が揃ったのでプログラミングを学んでいます。
+                前職で使用者側がシステムの不便さに困っている現状を目の当たりにしたこともあり、私の目指すエンジニア像は、編集するエンジニア側にも、実際に使用する人側にもわかりやすく優しいコードの書けるエンジニアになることです。
+                始まったばかりのプログラミングですが理解することが楽しく、自分で調べ試行錯誤でき、これからも学び、成長し続けることができる環境にとても魅力を感じています。
+              </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- works -->
+
+    <section class="works-section " id="works-section">
+      <div class="inner">
+        <div class="section-heading">
+          <h2 class="heading-primary">- Works -</h2>
+        </div>
+        <div class="section-body works">
+          <div class="works-list js-my-gallery">
+            <figure class="works-item">
+
+              <%= link_to image_tag("furima.jpg"), "https://furima29728.herokuapp.com/" , class:"works-image-wrapper works-link hover-action"  %>
+
+              <figcaption class="works-body">
+                <div class="works-title">TECH::CAMP最終課題「furima_app」</div>
+                <div class="works-text">HTML/ CSS/ Ruby/ rails/ javascript</div>
+                <div class="works-text">Basic認証 ID: mita Pass: 2018</div>
+
+                  <%= link_to '紹介資料リンク', "https://docs.google.com/document/d/1LuzSx06bmvH89oOhEGk0fqAylLhKxbZfgUKVGzbbyFs/edit", class: 'document_link' %>
+
+              </figcaption>
+            </figure>
+
+            <figure class="works-item">
+
+              <%= link_to image_tag("eMatch.png"), "https://e-match.tk/" , class:"works-image-wrapper works-link hover-action"  %>
+
+              <figcaption class="works-body">
+                <div class="works-title">エンジニアマッチングサイト「eMatch-Pro」</div>
+                <div class="works-text">HTML/ CSS/ Ruby/ rails/ javascript </div>
+                <div class="works-text">Basic認証 ID: mita Pass: 2018</div>
+                
+                <%= link_to '紹介資料リンク', "https://docs.google.com/document/d/1hiNEf1yWffkzWojoXo_t9XxQpM5jcdPzBMJqP87QiQg/edit", class: 'document_link' %>
+
+              </figcaption>
+            </figure>
+          </div>
+
+            <div class="git_link">
+              <%= link_to 'https://github.com/kiiii8r', class: 'github' do %>
+                <span class="git_title">- My GitHub</span>
+                <i class="fab fa-github"></i>
+                <span class="git_title">-</span>
+              <% end %>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
 <%= render 'footer' %>

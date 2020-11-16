@@ -1,0 +1,148 @@
+/* profile */
+
+.profile-section .inner {
+  max-width: 1000px;
+}
+
+.profile-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile-image-wrapper {
+  flex: 0 0 220px;
+  margin-right: 40px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width:  260px;    
+  height: 220px; 
+  box-shadow: 0 0 25px 0 #d9d9d9;
+  object-fit: cover;
+  object-position: -30% 0%;
+}
+
+.profile-list {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.profile-detail {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.profile-body {
+  flex: 1;
+  border-left: 1px rgb(216, 215, 215) solid;
+  padding-left: 30px;
+}
+
+.profile-body p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.darkblue{
+  color:rgba(0, 0, 139, 0.61);
+  margin-bottom:5px;
+  font-size: large;
+}
+
+/* works */
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+
+.works-item {
+  flex: 0 0 42.31552%;
+  margin:auto;
+  margin-right: 4.5%;
+  margin-bottom: 40px;
+}
+
+.works-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.works-body {
+  text-align: center;
+}
+
+.works-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 14px;
+}
+
+.works-text {
+  font-size: 12px;
+}
+
+.document_link {
+  border-bottom: 1px lightgray solid;
+}
+
+.works-url {
+  font-size: 10px;
+}
+
+.works-image.fadein {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.works-image.fadein.lazyloaded {
+  opacity: 1;
+}
+
+.git_link {
+  padding-top: 60px;
+  text-align: center;
+  border-bottom: 1px lightgray dotted;
+}
+
+.git_title {
+  font-size: 20px;
+  padding: 3px;
+}
+
+.github {
+  font-size: 22px;
+  padding: 2px;
+  color: rgba(0, 0, 0, 0.822);
+  transition: 0.3s;
+}
+
+.github:hover {
+  color: rgba(83, 117, 226, 0.705);
+}
+
+@media screen and (max-width: 812px) {
+
+  /* Works */
+  .works-body {
+   text-align: left;
+ }
+
+ .works-title {
+   font-size: 10px;
+ }
+
+ .works-list {
+   display: block;
+   justify-content: space-between;
+ }
+
+ .works-item {
+   flex: 0 0 48%;
+   margin-right: 0;
+   margin-bottom: 30px;
+ }
+}
