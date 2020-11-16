@@ -1,0 +1,44 @@
+.section-body {
+  text-align: center;
+}
+
+.contact-item {
+  width: 100%;
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.contact-link {
+  color: rgba(44, 109, 230, 0.904);
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.contact-link:hover {
+  color: rgba(44, 109, 230, 0.904);
+  opacity: 1;
+}
+
+.contact-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #062058b6;
+}
+
+.footer .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  color: #dfdfdfe5;
+}
+
+@media screen and (max-width: 812px) {
+
+}
