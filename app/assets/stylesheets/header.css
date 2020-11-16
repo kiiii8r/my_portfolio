@@ -53,3 +53,44 @@
 .ios .gnav-link:hover:after {
   display: none;
 }
+
+/* header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 100vw;
+  height: 51vw;
+  background-color: rgba(8, 44, 112, 0.822);
+  font-family: serif;
+}
+
+.logo {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  text-align: center;
+  color: rgba(240, 236, 212, 0.904);
+  transition: .8s;
+  width: 95vw;
+}
+
+.logo:hover {
+  color: rgba(235, 219, 133, 0.815);
+}
+
+.logo-title {
+  font-family: serif;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: .2em;
+  text-align: right;
+}
+
+.logo-subtitle {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: right;
+  letter-spacing: .2em;
+}
