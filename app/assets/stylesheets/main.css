@@ -308,4 +308,64 @@
     display: block;
   }
 
+  /* Skill */
+
+  .skill-desc {
+    font-size: 13px;
+  }
+
+  .skill-desc-title {
+    font-size: 20px;
+  }
+
+  .rate {
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    width: 85px;
+    height: 10px;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .rate:before, .rate:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+  }
+  
+  .rate:before {
+    color: #ddd;
+  }
+  
+  .rate:after {
+    color: #1c67c99d;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .rate1:after {
+    width: 16px;
+  }
+  
+  .rate2:after {
+    width: 35px;
+  }
+  
+  .rate3:after {
+    width: 48px;
+  }
+  
+  .rate4:after {
+    width: 65px;
+  }
+  
+  .rate5:after {
+    width: 80px;
+  }
+
 }
