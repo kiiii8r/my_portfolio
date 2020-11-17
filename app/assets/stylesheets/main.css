@@ -66,6 +66,8 @@
   scroll-snap-type: mandatory;
   scroll-snap-align: start;
   max-height: 600px;
+  padding-top: 30px;
+  padding-left: 10px;
 }
 
 .works-item {

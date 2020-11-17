@@ -15,7 +15,7 @@ img {
 
 .hover-action {
   display: block;
-  box-shadow: 0 25px 35px rgba(0,0,0,.2);
+  box-shadow: 0 15px 15px rgba(0,0,0,.2);
   transition: .8s;
   transform: scaleX(1) rotateZ(0deg);
 }
@@ -82,18 +82,6 @@ img {
 
   .sp-only {
     display: block;
-  }
-
-  .hover-action {
-    -webkit-transition: none;
-    transition: none;
-  }
-
-  .hover-action:hover {
-    -webkit-transition: none;
-    transition: none;
-    -webkit-transform: none;
-    transform: none;
   }
 
   /* 文字関連 */
