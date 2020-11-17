@@ -66,6 +66,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+  scroll-snap-align: start;
+  max-height: 600px;
 }
 
 .works-item {
@@ -119,12 +123,17 @@
 
 .git_title {
   font-size: 20px;
-  padding: 3px;
+}
+
+.fa-angle-double-down{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  color: rgba(211, 211, 211, 0.945);
 }
 
 .github {
   font-size: 22px;
-  padding: 2px;
   color: rgba(0, 0, 0, 0.822);
   transition: 0.3s;
 }
