@@ -295,23 +295,9 @@
   }
 
   /* Works */
-  .works-body {
-   text-align: left;
- }
 
- .works-title {
-   font-size: 10px;
- }
-
- .works-list {
-   display: block;
-   justify-content: space-between;
- }
-
- .works-item {
-   flex: 0 0 48%;
-   margin-right: 0;
-   margin-bottom: 30px;
- }
+  .works-list {
+    display: block;
+  }
 
 }
