@@ -267,6 +267,33 @@
 
 @media screen and (max-width: 812px) {
 
+  /* profile */
+
+  .profile-image-wrapper {
+    margin-right: 0;
+  }
+
+  .profile-image {
+    width:  220px;    
+    height: 220px; 
+  }
+
+  .detail-content {
+    padding: 0 50px;
+    margin-bottom: 5px;
+  }
+  
+  .profile-item {
+    display: block;
+  }
+
+  .profile-body {
+    border-top: 1px rgb(216, 215, 215) solid;
+    border-bottom: 1px rgb(216, 215, 215) solid;
+    border-left: none;
+    padding: 0 20px;
+  }
+
   /* Works */
   .works-body {
    text-align: left;
