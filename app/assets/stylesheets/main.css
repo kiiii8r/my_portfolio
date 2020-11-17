@@ -35,10 +35,6 @@
   font-weight: 600;
 }
 
-.detail-content {
-  text-align: left;
-}
-
 .profile-body {
   flex: 1;
   border-left: 1px rgb(216, 215, 215) solid;
@@ -282,6 +278,11 @@
     padding: 0 50px;
     margin-bottom: 5px;
   }
+
+  .bottom-space {
+    margin-bottom: 30px;
+  }
+  
   
   .profile-item {
     display: block;
@@ -291,7 +292,8 @@
     border-top: 1px rgb(216, 215, 215) solid;
     border-bottom: 1px rgb(216, 215, 215) solid;
     border-left: none;
-    padding: 0 20px;
+    margin: 0 40px;
+    padding: 0;
   }
 
   /* Works */
