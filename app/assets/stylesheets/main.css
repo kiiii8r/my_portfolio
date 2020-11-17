@@ -22,6 +22,7 @@
   box-shadow: 0 0 25px 0 #d9d9d9;
   object-fit: cover;
   object-position: -30% 0%;
+  border: 4px rgba(0, 0, 0, 0.801) solid;
 }
 
 .profile-list {
