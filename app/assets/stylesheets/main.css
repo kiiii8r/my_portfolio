@@ -35,10 +35,19 @@
   font-weight: 600;
 }
 
+.detail-content {
+  text-align: left;
+}
+
 .profile-body {
   flex: 1;
   border-left: 1px rgb(216, 215, 215) solid;
   padding-left: 30px;
+  text-align: left;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+  scroll-snap-align: start;
+  max-height: 600px;
 }
 
 .profile-body p:not(:last-child) {
