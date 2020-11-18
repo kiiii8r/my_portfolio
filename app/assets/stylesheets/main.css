@@ -114,6 +114,10 @@
   opacity: 1;
 }
 
+.document_link {
+  margin-left: 12px;
+}
+
 .git_link {
   padding-top: 60px;
   text-align: center;
